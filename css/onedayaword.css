@@ -1,0 +1,164 @@
+@charset "utf-8";
+#picture{
+	position: absolute;
+	top: 335px;
+	left: 204px;
+	width: 1070px;
+	height: 300px;
+	border: 0px solid #000;
+	z-index: 1;
+}
+#picture1{
+	position: absolute;
+	top: 592px;
+	left: 203px;
+	width: 1070px;
+	height: 300px;
+	border: 0px solid #000;
+	z-index: 1;
+}
+div#hua1{
+	float:left;
+	width:190px;
+	background-color:#FFF;
+	border:#FFF 6px solid;
+	margin:2px;
+	-webkit-box-shadow: 1px 5px 5px rgba(0,0,0,0.1);
+	box-shadow: 1px 5px 5px rgba(0,0,0,0.1);
+	-moz-box-shadow: 1px 5px 5px rgba(0,0,0,0.1);
+	-webkit-transition:ease 0.2s all;
+	-moz-transition:ease 0.2s all;
+	transition:ease 0.2s all;
+}
+div#hua2{
+	float:left;
+	width:190px;
+	position:relative;
+	top:75px;
+	background-color:#FFF;
+	border:#FFF 6px solid;
+	margin:2px;
+	-webkit-box-shadow: 1px 5px 5px rgba(0,0,0,0.1);
+	box-shadow: 1px 5px 5px rgba(0,0,0,0.1);
+	-moz-box-shadow: 1px 5px 5px rgba(0,0,0,0.1);
+	-webkit-transition:ease 0.2s all;
+	-moz-transition:ease 0.2s all;
+	transition:ease 0.2s all;
+}
+div#hua3{
+	float:left;
+	width:190px;
+	background-color:#FFF;
+	border:#FFF 6px solid;
+	margin:2px;
+	-webkit-box-shadow: 1px 5px 5px rgba(0,0,0,0.1);
+	box-shadow: 1px 5px 5px rgba(0,0,0,0.1);
+	-moz-box-shadow: 1px 5px 5px rgba(0,0,0,0.1);
+	-webkit-transition:ease 0.2s all;
+	-moz-transition:ease 0.2s all;
+	transition:ease 0.2s all;
+}
+div#hua4{
+	float:left;
+	width:190px;
+	background-color:#FFF;
+	border:#FFF 6px solid;
+	position:relative;
+	top:75px;
+	margin:2px;
+	-webkit-box-shadow: 1px 5px 5px rgba(0,0,0,0.1);
+	box-shadow: 1px 5px 5px rgba(0,0,0,0.1);
+	-moz-box-shadow: 1px 5px 5px rgba(0,0,0,0.1);
+	-webkit-transition:ease 0.2s all;
+	-moz-transition:ease 0.2s all;
+	transition:ease 0.2s all;
+}
+div#hua5{
+	float:left;
+	width:190px;
+	background-color:#FFF;
+	border:#FFF 6px solid;
+	margin:2px;
+	-webkit-box-shadow: 1px 5px 5px rgba(0,0,0,0.1);
+	box-shadow: 1px 5px 5px rgba(0,0,0,0.1);
+	-moz-box-shadow: 1px 5px 5px rgba(0,0,0,0.1);
+	-webkit-transition:ease 0.2s all;
+	-moz-transition:ease 0.2s all;
+	transition:ease 0.2s all;
+}
+
+img.pic{-webkit-transition:ease 0.2s all;}
+div.word{
+	display:none;
+	font-size:15px;
+	font-family:"宋体";
+	padding-top:5px;
+	background-color:#FFF;
+}
+div.hua:hover .word{
+	display:block;
+	border:#fff 10px solid;
+	width:216px;
+	position:relative;
+	left:-8px;
+	-webkit-box-shadow: 3px 5px 5px rgba(0,0,0,.1);
+	box-shadow: 3px 5px 5px rgba(0,0,0,.1);
+	-moz-box-shadow: 3px 5px 5px rgba(0,0,0,.1);
+	
+}
+#hua1:hover{
+	width:220px;
+	height:140px;
+	border:#FFF 8px solid;
+}
+#hua1:hover #pic1{
+	width:220px;
+	height:140px;
+}
+#hua2:hover{
+	width:220px;
+	height:140px;
+	border:#FFF 8px solid;
+}
+#hua2:hover #pic2{
+	width:220px;
+	height:140px;
+}
+#hua3:hover{
+	width:220px;
+	height:140px;
+	border:#FFF 8px solid;
+}
+#hua3:hover #pic3{
+	width:220px;
+	height:140px;
+}
+#hua4:hover{
+	width:220px;
+	height:140px;
+	border:#FFF 8px solid;
+}
+#hua4:hover #pic4{
+	width:220px;
+	height:140px;
+}
+#hua5:hover{
+	width:220px;
+	height:140px;
+	border:#FFF 8px solid;
+}
+#hua5:hover #pic5{
+	width:220px;
+	height:140px;
+}
+div.hua:not(:hover)
+{
+	   opacity: .5;
+}
+#saying{
+	position: absolute;
+	left: 194px;
+	height: 500px;
+	top: 574px;
+}
+/* CSS Document */

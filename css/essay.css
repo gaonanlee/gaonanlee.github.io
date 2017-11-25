@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+#essay{
+	position: absolute;
+	height: 670px;
+	float: right;
+	width: 83%;
+	background-image: url(../img/book1.png);
+	background-repeat: no-repeat;
+	left: 197px;
+	top: 289px;
+	z-index:-999;
+}
+#zhaiji{
+	position: absolute;
+	left: 162px;
+	top: 437px;
+	font-size: 18px;
+	font-family: "华文行楷";
+	color: #FFFFFF;
+	background-color: rgba(51,51,51,0.01);
+}
+#zhaiji a{
+	color:#000;
+	text-decoration:none;
+}
+#left{
+	-webkit-transition:all ease-in-out 0.35s;
+	transition:all ease-in-out 0.35s;
+	-moz-transition:all ease-in-out 0.35s;
+	}
+#left:not(:hover){
+	opacity:0.5;
+}
+#today:not(:hover){
+	opacity:1;
+}
+a.girl:link {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+img#fengmian{
+	position: absolute;
+	left: 161px;
+	top: 113px;
+	border:0px;
+	-webkit-transition:all ease-in-out 0.25s;
+	transition:all ease-in-out 0.25s;
+	-moz-transition:all ease-in-out 0.25s;
+}
+
+img#today
+{
+	position: absolute;
+	left: 148px;
+	top: 33px;
+}
+#content{
+	position: absolute;
+	width: 300px;
+	left: 579px;
+	top: 91px;
+}
+.contentt a{
+	text-decoration:none;
+	color:#000;
+}
+#content1{margin:auto auto 25px auto;}
+#content2{margin:28px auto;}
+#content3{margin:25px auto auto auto;}
+.contentt:not(:hover){
+	opacity:0.4;
+}
+h1{
+	font-size:16px;
+}
+

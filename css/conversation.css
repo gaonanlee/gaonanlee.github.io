@@ -1,0 +1,135 @@
+@charset "utf-8";
+h1{
+	font-size:28px;
+	text-align:center;
+	color:#9B9B9B;
+	font-family:"微软雅黑";
+	background-color:#E5E5E5;
+	padding:7px;
+}
+p{
+	font-size:20px;
+	padding:0 15px 0 25px;
+	color:#999;
+	font-family:"微软雅黑";
+}
+#con{
+	border: 0px #000000 solid;
+	width: 74%;
+	height: 550px;
+	position: absolute;
+	right: 159px;
+	top: 301px;
+	z-index:-999;
+}
+.content1{
+	border: 3px #666 solid;
+	border-radius:10px;
+	box-shadow:2px 2px 5px #CCC;
+	-webkit-box-shadow:2px 2px 5px #CCC;
+	-moz-box-shadow:2px 2px 5px #CCC;
+	width: 38%;
+	height: 55%;
+	margin: 10px;
+	float: left;
+	overflow:hidden;
+	z-index:999;
+
+}
+.door1{
+	position:relative;
+	width:380px;
+	height:305px;
+	bottom:247px;
+	border:3px #666 solid;
+	border-radius:10px;
+	-webkit-transition: all .4s linear;
+	-moz-transition: all .4s linear;
+	transition: all .4s linear;
+}
+.content1:hover .door1{
+	bottom:-60px;
+}
+.content2{
+	border: 3px #666 solid;
+	border-radius:10px;
+	box-shadow:2px 2px 5px #CCC;
+	-webkit-box-shadow:2px 2px 5px #CCC;
+	-moz-box-shadow:2px 2px 5px #CCC;
+	overflow:hidden;
+	width:55%;
+	height:38%;
+	margin:10px;
+	float:right;
+}
+.door2{
+	position:relative;
+	width:550px;
+	height:210px;
+	bottom:194px;
+	border:3px #666 solid;
+	border-radius:7px;
+	-webkit-transition: all .4s linear;
+	-moz-transition: all .4s linear;
+	transition: all .4s linear;
+}
+.content2:hover .door2{
+	bottom:-35px;
+}
+.content3{
+	border: 3px #666 solid;
+	border-radius:10px;
+	box-shadow:2px 2px 5px #CCC;
+	-webkit-box-shadow:2px 2px 5px #CCC;
+	-moz-box-shadow:2px 2px 5px #CCC;
+	overflow:hidden;
+	width: 55%;
+	height: 55%;
+	margin: 10px;
+	float: right;
+}
+.door3{
+	position:relative;
+	width:550px;
+	height:303px;
+	bottom:300px;
+	border:3px #666 solid;
+	border-radius:7px;
+	-webkit-transition: all .4s linear;
+	-moz-transition: all .4s linear;
+	transition: all .4s linear;
+}
+.content3:hover .door3{
+	bottom:-10px;
+}
+.content4{
+	border: 3px #666 solid;
+	border-radius:10px;
+	box-shadow:2px 2px 5px #CCC;
+	-webkit-box-shadow:2px 2px 5px #CCC;
+	-moz-box-shadow:2px 2px 5px #CCC;
+	overflow:hidden;
+	width:38%;
+	height:38%;
+	margin:10px;
+	float:left;
+}
+.door4{
+	position:relative;
+	width:380px;
+	height:210px;
+	bottom:220px;
+	border:3px #666 solid;
+	border-radius:7px;
+	-webkit-transition: all .4s linear;
+	-moz-transition: all .4s linear;
+	transition: all .4s linear;
+}
+.content4:hover .door4{
+	bottom:5px;
+}
+
+
+
+
+	
