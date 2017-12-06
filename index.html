@@ -1,136 +1,90 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>清欢-主页</title>
-<link rel="stylesheet" type="text/css" href="css/index.css" />
-<style type="text/css">
-#lay1{
-	width:1366px;
-	height:500px;
-	background-image:url(img/snow.png);
-}
-body{
-	background:url(img/background1.png)  #FBFBFB;
-	background-repeat:no-repeat;
-	background-position:top;
-}
-#log2{
-	width:44%;
-	float:left;
-	height:100%;
-	background-color:#999;
-	background-image:url(img/logbackground1.png);
-}
-#log1{
-	width:56%;
-	height:100%;
-	float:left;
-	background-image:url(img/logbackground2.png);
-	
-}
-</style>
-<script src="js/jquery-2.0.2.js"></script>
-<script type="text/javascript">
-
-$(document).ready(function(){
-	$("#loginclick").mouseover(function(){
-		$("#loginclick").animate({opacity:0.9,width:'47px',height:'53px'},200);
-	});
-	$("#loginclick").mouseout(function(){
-		$("#loginclick").animate({opacity:1,width:'45px',height:'44px'},200)
-	});
-});
-$(function(){
-	var height=1000;
-	offset=Math.round(Math.floor(Math.random()*1000));
-	function scrolll()
-	{
-		offset=offset>1000?(offset-height):offset+1;
-		$("#lay1").css("background-position","50% "+offset+"px");
-		setTimeout(function(){scrolll();},60);
-	}
-	scrolll();
-})
-function change11()
-{
-	document.getElementById('wen').src="img/一文一菩提.png";
-}
-function change12()
-{
-	document.getElementById('wen').src="img/文.png";
-}
-function change21()
-{
-	document.getElementById('tu').src="img/一图一世界.png";
-}
-function change22()
-{
-	document.getElementById('tu').src="img/图.png";
-}
-function change31()
-{
-	document.getElementById('yu').src="img/一日一语.png";
-}
-function change32()
-{
-	document.getElementById('yu').src="img/语.png";
-}
-function change41()
-{
-	document.getElementById('xin').src="img/悠悠我心.png";
-}
-function change42()
-{
-	document.getElementById('xin').src="img/心.png";
-}
-function change51()
-{
-	document.getElementById('shang').src="img/交流赏析.png";
-}
-function change52()
-{
-	document.getElementById('shang').src="img/赏.png";
-}
-function login()
-{
-	document.getElementById('log').style.display='block';
-	document.getElementById('nav').style.opacity='0.1';
-}
-function logout()
-{
-	document.getElementById('log').style.display='none';
-	document.getElementById('nav').style.opacity='1';
-}
-</script>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+   <!--<meta name="viewport" content="width=device-width,initial-scale=1">-->
+<title>Nan Gao's Website</title>
+   <!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/all.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
 </head>
-<body title="请先点击右上角图标登陆">
-<div id="lay1">
-	<div id="ship"><img src="img/boat.png" /></div>
-	<div id="nav">
-		<a href="html/一文一菩提-真情浓浓.html"><img id="wen" src="img/文.png" onmouseover="change11()" onmouseout="change12()"/></a>
-		<a href="html/一图一世界-澄澈童心.html"><img id="tu" src="img/图.png" onmouseover="change21()" onmouseout="change22()"/></a>
-		<a href="html/一日一语-古者之言.html"><img id="yu" src="img/语.png" onmouseover="change31()" onmouseout="change32()"/></a>
-		<a href="html/悠悠我心-自我介绍.html"><img id="xin" src="img/心.png" onmouseover="change41()" onmouseout="change42()"/></a>
-		<a href="html/交流赏析-他人之长.html"><img id="shang" src="img/赏.png" onmouseover="change51()" onmouseout="change52()"/></a>
-	</div>
-	<div id="log">
-		<div id="log1">
-	    </div>
-    	<div id="log2">
-			<p class="informationx" onclick="logout()">x</p>
-    		<p class="information1">登陆清欢账号</p>
-    		<div id="log21">
-        		<p class="information">账号:</p><input type="text"  name="username" class="blank"/><br/>
-	        	<p class="information">密码:</p><input type="password" name="key" class="blank"/><br/>
-    	    	<input type="submit" value="登陆" onclick="logout()" id="blank1"/>  
-       		</div>
-			<hr style="width:85%" color="#CCCCCC" size="1px"/>
-			<p<span id="question">您还没有清欢账户？</span> <a href="html/注册-基本信息.html" style="text-decoration:none"><span id="register">免费注册>></span></a></p>     
-    	</div>
-	</div>
-	<img src="img/login.png" id="loginclick" onclick="login()" alt="登陆"/>
-</div>
 
-</body>
+  <body>
+    <!-- HEADER START-->
+    <div>
+     	<h1>Nan Gao</h1>
+    </div>
+    <!-- HEADER END-->
+    <!-- CONTENT START-->
+    <div>
+      <div class="intro">
+		<div class="intro_head">Education</div>
+		<div class="intro_con">
+			<p>
+				2016.09 – present M.Eng in Software Engineering, Beijing Institute of technology (Recommendation exemption graduate)
+			</p>
+			<p>
+				2012.09 - 2016.06 B.Sci in Software Engineering, Beijing Institute of Technology (“211 and 985 Projects supported”, widely considered by Chinese education officials to be among the top 20 universities in China) 
+			</p>
+		</div>
+      </div>
+      <div class="intro">
+		<div class="intro_head">RERFORMANCE DATA</div>
+		<div class="intro_con">
+			<p>
+				GPA: 84 (Rank: 15%)  IELTS: Overall=6.5, L=6.0 R=8.0 W=6.0 S=6.0
+			</p>
+		</div>
+      </div>
+      <div class="intro">
+		<div class="intro_head">RESEARCH INTEREST</div>
+		<div class="intro_con">
+			<p>
+				Big data analytics, clustering and intelligence service.
+			</p>
+			<p>
+				Pattern recognition and image processing
+			</p>
+		</div>
+      </div>
+      <div class="intro">
+		<div class="intro_head">DETAILED ACHIEVEMENTS</div>
+		<div class="intro_con">
+			<div class="intro_con_1">1>	Thesis and paper</div>
+			<div class="intro_con_2">	
+				<p>
+					Nan Gao. An Improved Link Prediction Algorithm in Social Network and Dynamic Visualization Implementation (bachelor's thesis)
+				</p>
+				<p>
+					Dongwei Li, Nan Gao, Yun Yang, Shuliang Wang. Cost-effective Clustering in the Cloud. IEEE International Parallel & Distributed Processing Symposium (prepare to submit on 01/2018, and I am the main contributor actually)  
+				</p>
+			</div>
+			<div class="intro_con_1">2>	Research projects</div>
+			<div class="intro_con_2">	
+				<p>
+					Cost-effective Clustering in the Cloud. As the main contributor, I researched and found the cost-effective method with my group members. The experiments had been done successfully and we are writing and editing the papers now. (2017.3 - present)</p>
+				<p>
+					Built the first Visual Data Mining Platform in computer science and intelligence laboratory, BIT. It has the functions such as Select, Pre-processing, Data Mining (Association Rules, Decision Tree, Classification, Clustering, Social Network Analysis), Result Export. (2015-2016)
+				</p>	
+				<p>The Implementation of an Image Processing Software. It has the basic functions such as image enhance, image operation, image coding, edge detection, etc. (2014)
+				</p>
+			</div>
+		</div>
+		<div class="intro_con">
+			
+		</div>
+		<div class="intro_con">
+			
+		</div>
+      </div>
+    </div>
+    <!-- CONTENT END-->
+    <!-- FOOTER START-->
+    <div>
+      	
+    </div>
+    <!-- FOOTER END-->
+  </body>
 </html>
